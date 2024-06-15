@@ -41,6 +41,22 @@ class cat:
         c1.show()
         
 # this test it'll be class attributes
+class person:
+    number_of_people = 0  # 
+    
+    def __init__(self, name):
+        self.name = name
+        person.number_of_people += 1 
+
+
+p1 = person("mustafe")
+p2 = person("imran")
+p3 = person("abdi")
+
+
+print(person.number_of_people)  
+
+
 
 
       
