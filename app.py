@@ -40,7 +40,7 @@ class cat:
         c1 =cat("meow", 8)
         c1.show()
         
-# this test it'll be class another class
+# this test it'll be class attributes
 
 
       
