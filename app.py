@@ -50,7 +50,9 @@ class person:
 
 
 p1 = person("mustafe")
+print(person.number_of_people)
 p2 = person("imran")
+print(person.number_of_people)
 p3 = person("abdi")
 
 
