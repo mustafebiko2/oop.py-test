@@ -41,22 +41,62 @@ class cat:
         c1.show()
         
 # this test it'll be class attributes
-class person:
-    number_of_people = 0  # 
+# class person:
+#     number_of_people = 0  # 
     
-    def __init__(self, name):
-        self.name = name
-        person.number_of_people += 1 
+#     def __init__(self, name):
+#         self.name = name
+#         person.number_of_people += 1 
 
 
-p1 = person("mustafe")
-print(person.number_of_people)
-p2 = person("imran")
-print(person.number_of_people)
-p3 = person("abdi")
+# p1 = person("mustafe")
+# print(person.number_of_people)
+# p2 = person("imran")
+# print(person.number_of_people)
+# p3 = person("abdi")
 
 
-print(person.number_of_people)  
+# print(person.number_of_people)  
+
+# class person:
+#     number_of_people = 0  # 
+    
+#     def __init__(self, name):
+#         self.name = name
+#         person.add_person()
+        
+#     @classmethod
+#     def number_of_people(cls):
+#         return cls.number_of_people
+#     @classmethod
+#     def add_person(cls):
+#         cls.number_of_people += 1 
+
+
+# p1 = person("mustafe")
+# p2 = person("imran")
+# p3 = person("abdi")
+
+
+# print(person.number_of_people_())  
+
+# static methods
+class Math:
+    @staticmethod
+    def add5(x):
+        return x + 5
+    
+    @staticmethod
+    def add10(x):
+        return x + 10
+    
+    @staticmethod
+    def pr():
+        print("run")
+
+# Calling static method without an instance
+Math.pr()
+
 
 
 
