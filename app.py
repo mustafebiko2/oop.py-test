@@ -1,3 +1,5 @@
+#this test is inheritance in python 
+
 class man:
     def __init__(self, name, age):
         self.name = name
@@ -38,6 +40,8 @@ class cat:
         c1 =cat("meow", 8)
         c1.show()
         
+# this test it'll be class another class
+
 
       
           
